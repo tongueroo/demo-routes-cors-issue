@@ -2,6 +2,9 @@ Jets.application.configure do
   config.project_name = "demo"
   config.mode = "html"
 
+  config.cors = true
+  config.api.auto_replace = true
+
   config.prewarm.enable = true # default is true
   # config.prewarm.rate = '30 minutes' # default is '30 minutes'
   # config.prewarm.concurrency = 2 # default is 2
